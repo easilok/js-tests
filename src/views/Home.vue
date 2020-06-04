@@ -55,7 +55,7 @@ export default {
 			}
 		},
 		initializeVariables() {
-			this.apiKey = 'AIzaSyC6F2I5PmR3YM9gx4xC39JnwN5GMJAfnq4'
+			this.apiKey = 'AIzaSyD6e3vvEfnJFcjGdN0PbXbwy9bmEWeesf8'
 			this.mapConfig = {
 				center: this.initialPosition,
 				zoom: 15,
