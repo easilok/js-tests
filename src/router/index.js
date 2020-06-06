@@ -11,6 +11,22 @@ Vue.use(VueRouter)
     component: Home
   },
   {
+    path: '/gmaps',
+    name: 'Gmaps',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Gmaps.vue')
+  },
+  {
+    path: '/qr-reader',
+    name: 'QR Reader',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/QRreader.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting
